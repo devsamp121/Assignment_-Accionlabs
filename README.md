@@ -1,4 +1,4 @@
-# Assignment Accionlabs
+# Assignment
 
 # Weather API
 1. Create a database in MySql and modify the .env file in root folder with DB details like database name, username and password.
