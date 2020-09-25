@@ -1,6 +1,6 @@
 # Assignment
 
-# Weather API
+# Weather API - weather.zip
 1. Create a database in MySql and modify the .env file in root folder with DB details like database name, username and password.
 2. Run from command line by > cd to the root folder path   
 3. > composer update
@@ -22,3 +22,16 @@ PHP 7+, Mysql, Lumen Micro framework
 # palindrome
 Demonstrates OOPS and Dependency Injection
 URL: http://localhost/palindrome.php
+
+
+# Weather API V2 - weatherapi.zip
+This has some extra features like 
+> Store 5 different cities data, 
+> As the weaather data won't update for one hour, the fetching of data happens only after completing one hour.
+
+1. Create a database in MySql and modify the .env file in root folder with DB details like database name, username and password.
+2. Run from command line by > cd to the root folder path   
+3. > composer update
+4. >  php artisan migrate 
+5. This will create a table 'weatherapidata' i which the weather data is stored from Openweathermap
+6. API to fetch and store data: 
